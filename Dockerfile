@@ -1,3 +1,4 @@
+# n8n with Python support for Excel image extraction
 FROM n8nio/n8n:latest-debian
 
 USER root
