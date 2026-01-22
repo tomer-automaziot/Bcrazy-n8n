@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Python packages globally
-RUN pip3 install --break-system-packages --no-cache-dir \
+RUN pip3 install --no-cache-dir \
     openpyxl \
     pillow
 
